@@ -1,0 +1,7 @@
+task_planner:
+  ros__parameters:
+    task_sequence: ["go_to_kitchen", "detect_red_box", "go_to_living_room"]
+    waypoints:
+      go_to_kitchen: [6.5, 2.42, 0.6]
+      go_to_living_room: [7.06, 7.36, 0.60]
+    speed_limit: 0.2

@@ -1,0 +1,26 @@
+# Publish only project-owned packages; retain local upstream checkouts.
+/src/*
+!/src/README.md
+!/src/tb3_custom_nav/
+!/src/tb3_interfaces/
+
+/build/
+/install/
+/log/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+.vscode/
+.idea/
+.env
+.env.*
+*.pem
+*.key
+*.bag
+*.db3
+*.mcap
+
+# Generated ament scaffolding, not application tests.
+/src/tb3_custom_nav/test/
